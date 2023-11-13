@@ -374,7 +374,6 @@ class format_buttons_renderer extends format_topics_renderer
             $htmlsection0 .= $this->courserenderer->course_section_add_cm_control($course, 0, 0);
             $htmlsection0 .= $this->section_footer();
         }
-        echo $completioninfo->display_help_icon();
         echo $this->output->heading($this->page_title(), 2, 'accesshide');
         echo $this->course_activity_clipboard($course, 0);
         echo $this->start_section_list();
